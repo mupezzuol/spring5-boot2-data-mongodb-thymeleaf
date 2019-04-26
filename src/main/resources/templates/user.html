@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lista de Usuários</title>
+</head>
+<body>
+
+<h1>Lista de Usuários</h1>
+
+<!-- Tabela usando Thymeleaf (Uso each para lista) -->
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Nome</th>
+				<th>E-mail</th>
+				<th>Idade</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="user: ${listUser}">
+				<td th:text="${user.nome}"></td>
+				<td th:text="${user.email}"></td>
+				<td th:text="${user.idade}"></td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
