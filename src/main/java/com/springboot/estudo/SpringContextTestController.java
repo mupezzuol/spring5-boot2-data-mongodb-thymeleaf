@@ -1,4 +1,4 @@
-package com.springboot.config;
+package com.springboot.estudo;
 
 import org.springframework.stereotype.Controller;
 
