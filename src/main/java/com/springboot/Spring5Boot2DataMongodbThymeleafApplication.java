@@ -25,7 +25,6 @@ public class Spring5Boot2DataMongodbThymeleafApplication {
 		VehicleComponent contextQualifier = (VehicleComponent) ctx.getBean("vehicleComponent");
 		contextQualifier.service();//Chama método que chama métodos da interface, escolhendo a classe segundo o @Qualifier
 		
-		
 	}
 
 }
