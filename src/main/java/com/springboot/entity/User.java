@@ -35,6 +35,12 @@ public class User {
 		this.email = email;
 		this.idade = idade;
 	}
+	
+	public User(String nome, String email) {
+		super();
+		this.nome = nome;
+		this.email = email;
+	}
 
 
 	// Getter's and Setter's
