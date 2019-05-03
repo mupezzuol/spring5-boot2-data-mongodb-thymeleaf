@@ -15,7 +15,7 @@ public class HttpMethodController {
 	
 	
 	//Método GET passando Parametro na URL
-	@RequestMapping(value="/userGet/{nome}", method = RequestMethod.GET)
+	@RequestMapping(value="/http/{nome}", method = RequestMethod.GET)
 	public List<User> getUsers(@PathVariable String nome) {
 		List<User> users = new ArrayList<>();
 		
