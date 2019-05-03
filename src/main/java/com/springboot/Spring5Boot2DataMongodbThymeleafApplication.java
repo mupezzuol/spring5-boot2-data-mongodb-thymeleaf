@@ -7,6 +7,7 @@ import org.springframework.context.ApplicationContext;//Usando o Context do Spri
 import com.springboot.estudo.SpringContextTestController;
 import com.springboot.estudo.qualifier.VehicleComponent;
 
+//@ComponentScan -> Spring Framework já mapeia para nós, ele configura automático, porém eu posso colocar manualmente caso eu queira
 @SpringBootApplication
 public class Spring5Boot2DataMongodbThymeleafApplication {
 
