@@ -37,6 +37,7 @@ public class DataInitializr implements ApplicationListener<ContextRefreshedEvent
 		List<User> user5 = userRepository.findByIdadeGreaterThanEqual(50);
 		user5.stream()
 		.forEach(u -> System.out.print(u.getNome() + " - "));//NOME - José
+		System.out.println();
 	}
 	
 	
